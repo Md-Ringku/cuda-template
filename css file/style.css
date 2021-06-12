@@ -1,0 +1,435 @@
+*{margin:0px;padding:0px}
+html {
+  scroll-behavior: smooth;
+}
+section {
+    padding:80px 0px;
+    clear: both;
+}
+
+.scrolled {background:black !important}
+.navbar {
+    background: #8d7e9200;
+    color: white;
+    overflow: hidden;
+    padding: 13px 0px;
+
+}
+
+.overlay-content a {
+    color: #d2bfbf;
+   display: block;
+    font-size: 30px;
+    padding: 12px 48px;
+    text-decoration: none;
+}
+.overlay-content {
+    width: 100%;
+    position: relative;
+    top: 18%;
+    text-align: center;
+}
+ .overlay {
+	width:0%;
+	height:100%;
+    position:fixed;
+     left:0;
+    top:0px;
+    background:#0a0909;
+    z-index: 2;
+    overflow-x:hidden;
+    transition:.6s;
+}
+a.close-nav {
+    color: #fff;
+    font-size: 50px;
+    margin-right: 32px;
+    float: right;
+	text-decoration: none;
+	
+}
+.mobile-icon span {
+    font-size: 28px;
+	display:none;
+ color: #fff;
+ margin-right: 32px;
+}
+
+
+.container{max-width:1170px;margin:auto;}
+.container .logo{
+    max-width: 200px;
+    float: left;
+    text-transform: uppercase;
+    margin-top: 0px;margin-left: 46px;
+}
+.container .logo a{ padding-right: 46px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;}
+.container h1{
+   font-size:28px
+}
+.container .menubar {
+  max-width: 850px;
+   float: right;
+    margin-top: 3px;
+	    margin-left: auto;
+}
+.menubar ul {
+    list-style: none;
+	margin-bottom: 0px;
+}
+.menubar ul li{
+	display: inline-block;
+}
+.menubar ul li a{
+	 padding-right: 46px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+/*header menu*/
+.hero-page{
+	background:#87509c;
+ width:100%;
+ height:580px;
+ clear:both;
+ position:relative;
+ overflow: hidden;
+}
+
+
+.hero-page h1 {
+    padding: 6px 40px;
+    font-size:2.5rem;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.hero-page button {
+    padding: 6px 40px;
+    font-size: 0.9rem;
+    background: #eb7d4d;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #c86a43;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+   top: 57%;
+    left: 44%;
+}
+
+
+/*hero page section*/
+.col-lg-12.services-section {
+    position: relative;
+}
+.bg-color{
+	background: #17c2a4;
+	color:#fff;
+	text-align:center;
+}
+.services-title .line {
+    width: 77px;
+    border: 2px solid #14a58c;
+    position: absolute;
+    left: 46%;
+    top:40%;
+}
+.services-title h3 {
+    font-size: 16px;
+    margin-top: 41px;
+}
+.sarvices-content {
+    width: 24%;
+    margin-top: 58px;
+    display: inline-block;
+	
+}
+
+/*team section*/
+section#TEAM {
+    background: #e7f1f8;
+	color:#333;
+	text-align:center;
+	position: relative;
+}
+
+.team-title .line {
+    width: 77px;
+    border: 2px solid #14a58c;
+    position: absolute;
+    left: 46%;
+    top: 50%;
+}
+.team-title h3 {
+    font-size: 16px;
+    margin-top: 41px;
+}
+.team-content {
+    width: 24%;
+    margin-top: 42px;
+    display: inline-block;
+}
+.team-content img {
+    width: 103px;
+}
+.team-content h2 {
+    font-size: 25px;
+    padding-top: 14px;
+}
+.team-content h4 {
+    font-size: 17px;
+    color: #03A9F4;
+}
+.team-content .social-icon a {
+    background: #ccc;
+    padding: 4px 7px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    color: #fff;
+    margin: 3px auto;
+	transition: all ease 0.3s;
+}
+.team-content .social-icon a:hover {
+    background: #4c66a4;
+    color: #fff;
+	transform: rotate(360deg);
+}
+
+.skills-title .line {
+    width: 77px;
+    border: 2px solid #14a58c;
+    position: absolute;
+    left: 46%;
+    top: 40%;
+}
+.skills-title h3 {
+    font-size: 16px;
+    margin-top: 41px;
+}
+.skilss-content {
+    width:24%;
+    display: inline-block;
+   padding-top: 37px;
+}
+.skilss-content h3 {
+    font-size: 23px;
+    padding-top: 11px;
+}
+
+/*portfolio section*/
+section#PORTFOLIO {
+    background: #ffdd99;
+    text-align: center;
+    position: relative;
+}
+.left-img img {
+    width: 100%;
+}
+.right-img img {
+    width: 100%;
+}
+.portfolio-title .line {
+    width: 77px;
+    border: 2px solid #14a58c;
+    position: absolute;
+    left: 46%;
+    top:41%;
+}
+.portfolio-title h3 {
+    font-size: 16px;
+    margin-top: 41px;
+}
+.portfolio-menu button {
+    background: #ebc985;
+    color: #111;
+    border: none;
+    padding: 6px 27px;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: 21px;
+	outline:none;
+}
+.portfolio-menu button:focus {
+    color: white;
+}
+.button-port button {
+    background: #17c2a4;
+    color: white;
+    border: navajowhite;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.button-port {
+
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.portfolio-image {
+    padding-top: 44px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.left-img {
+    width: 49%;
+    float: left;
+}
+.right-img {
+    width: 49%;
+    float: right;
+}
+
+.apps-img {
+	 padding-top: 44px;
+    width: 100%;
+    overflow: hidden;
+	display:none;
+}
+.all-img{display:none;!important}
+.web-img{display:none; padding-top: 44px;}
+.icons-img{display:none; padding-top: 44px;}
+.active{display:block !important;
+}
+/*about section*/
+section#ABOUT-US {
+    background: #d74680;
+    color: #fff;
+    text-align: center;
+}
+.about-title h3 {
+    padding-top: 22px;
+}
+.about-description h2 {
+    font-size: 22px;
+}
+.about-title .line {
+    width: 77px;
+    border: 2px solid #14a58c;
+    position: absolute;
+    left: 46%;
+    top:52%;
+}
+.about-content {
+    width:49%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
+	float: left;
+}
+.about-description h4 {
+    color: #ffdd99;
+    font-size: 19px;
+    font-style: italic;
+}
+.about-img {
+    width:25%;
+    float: left;
+    margin-top: 15px;
+}
+.about-img img {
+    width: 100%;
+    background: #787878;
+    border-radius: 100%;
+    padding: 10px;
+}
+.about-description {
+    width:70%;
+    float: right;
+    margin-top: 20px;
+    text-align: left;
+}
+.about-description p {
+    font-size: 18px;
+}
+/*contack section*/
+section#contack-us {
+    background: #3c5499;
+    color: #fff;
+    text-align: center;
+}
+.contack-title .line {
+    width: 77px;
+    border: 2px solid #14a58c;
+    position: absolute;
+    left: 46%;
+    top:50%;
+}
+.form-section input {
+    width: 44%;
+    padding: 8px 5px;
+    background: #273a71;
+    color: #fff;
+    border: none;
+    margin: 0px 11px;
+}
+.contack-title h3 {
+    padding-top: 33px;
+    font-size: 17px;
+}
+.form-section {
+    padding-top: 20px;
+	width: 800px;
+    margin: 0 auto;
+}
+
+textarea#textare {
+    background: #273a71;
+    color: #fff;
+    width: 92%;
+    border: none;
+    margin-top: 36px;
+    padding: 8px 11px;
+}
+
+
+/*footer-section*/
+section#SKILL {
+
+	text-align:center;
+	position: relative;
+}
+footer#footer-section {
+    background: #344b8e;
+    padding: 30px 0px;
+	    text-align: center;
+}
+.social-icon a {
+    color: #fff;
+    text-decoration: none;
+}
+.col-lg-12.services-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-lg-12.team-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-lg-12.skill-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-lg-12.about-section {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
